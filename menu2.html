@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Willow Café</title>
+    <link rel="icon" type="svg" href="images/title-logo.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media/menu_media.css">
+    <script src="script.js" defer></script>
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+
+    <div class="wrapper2">
+        <div class="topbar transparent" id="topbar">
+            <button id="menu-btn">☰</button>
+            <a href="dashboard.html" class="logo-btn"><img src="images/logo.png" alt="Cafe Logo"></a>
+        <div class="profile-icon-container">
+            <img src="./images/profileicon.svg" alt="Profile Icon" id="profile-icon" class="profile-icon">
+            <div id="user-menu" class="user-menu">
+                <div class="arrow-up"></div>
+                <div class="username">
+                    <span id="username">username_123</span>
+                    <div class="underline"></div>
+                </div>
+                <div class="usermenu-buttons">
+                    <a href="reservation2.html" class="reservation-btn">Reservations</a>
+                    <button class="logout-btn">Logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <header>
+            <div class="menu-header">
+                <img src="images/cultery-left.svg" height="130px" alt="Cutlery Icon" id="menu-icon" />
+                <h1>Menu</h1>
+                <img src="images/cultery-right.svg" height="130px" alt="Cutlery Icon" id="menu-icon" />
+            </div>
+            <div class="tagline-container">
+
+                <img src="images/Left-Arrow.png" alt="Arrow Icon" class="tagline-img" />
+                <p class="tagline">&nbsp;&nbsp;&nbsp;All you can eat.&nbsp;&nbsp;</p>
+                <img src="images/Right-Arrow.png" alt="Arrow Icon" class="tagline-img" />
+
+            </div>
+        </header>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <button id="close-btn">×</button>
+        <ul>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="menu2.html">Menu</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+            <li><a href="team2.html">Team</a></li>
+        </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay"></div>
+
+    <div class="menu-sticky-bar">
+
+        <a href="#valueset-menu">Value Set</a>
+        <a href="#top-picks-menu">Top Picks</a>
+        <a href="#breakfast-menu">Breakfast</a>
+        <a href="#light-bites-menu">Light Bites</a>
+        <a href="#pasta-menu">Pasta</a>
+        <a href="#rice-menu">Rice</a>
+        <a href="#dessert-menu">Desserts</a>
+        <a href="#coffee-tea-menu">Coffee & Tea</a>
+        <a href="#blended-menu">Blended</a>
+        <a href="#others-menu">Others</a>
+
+    </div>
+
+
+    <main>
+        <div class="menu">
+            <p>Greetings from Willow! Explore our delicious offerings!</p>
+
+            <!--Value Lunch Set Menu-->
+            <section id="valueset-menu">
+                <div id="long-title" class="section-title">
+                    <img src="./images/lunchset1.svg" height="90px" alt="Chicken Wrap Icon" />
+                    <h2>Value&nbsp;Lunch&nbsp;Set</h2>
+                    <img src="./images/lunchset2.svg" height="90px" alt="Grilled Chicken Rice Icon" />
+                </div>
+
+
+                <div class="menu-desc">
+                    <blockquote><strong><i>Weekdays Only (11a.m. - 3p.m.)</i></strong>
+                        <p><i>All sets include a drink (<b>Americano</b> or <b>Peach Tea</b>).</i></p>
+                    </blockquote>
+                </div>
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/grilled-chicken-rice.png" alt="Set A">
+                        <div class="card-content">
+                            <div class="name">Set A - Grilled Chicken Rice Bowl Set</div>
+                            <div class="desc">Juicy grilled chicken with teriyaki glaze, rice & salad.</div>
+                            <div class="price">RM15.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/creamy-cabonara-pasta.png" alt="Set B">
+                        <div class="card-content">
+                            <div class="name">Set B - Creamy Carbonara Pasta Set</div>
+                            <div class="desc">Classic carbonara with turkey bacon and cheese.</div>
+                            <div class="price">RM15.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/fried-chicken-wrap.png" alt="Set C">
+                        <div class="card-content">
+                            <div class="name">Set C - Fried Chicken Wrap Set</div>
+                            <div class="desc">Crispy chicken with lettuce and spicy mayo in soft wrap.</div>
+                            <div class="price">RM13.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/veggie-pesto-pasta.png" alt="Set D">
+                        <div class="card-content">
+                            <div class="name">Set D - Veggie Pesto Pasta Set</div>
+                            <div class="desc">Vegetarian-friendly, fresh pesto and seasonal vegetables.</div>
+                            <div class="price">RM13.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/pineapple-fried-rice.png" alt="Set E">
+                        <div class="card-content">
+                            <div class="name">Set E - Pineapple Fried Rice Set</div>
+                            <div class="desc">Local-style fried rice with pineapples, fried egg and chicken slices.
+                            </div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--Top Picks Menu-->
+            <section id="top-picks-menu">
+
+                <div class="section-title">
+                    <img src="./images/toppicks1.svg" height="120px" alt="Big Breakfast Icon" />
+                    <h2>Top-Picks</h2>
+                    <img src="./images/toppicks2.svg" height="120px" alt="Salad Icon" />
+                </div>
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Our most popular dishes, loved by our customers!</i></p>
+                    </blockquote>
+                </div>
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/willow-big-breakfast1.png" alt="Willow Big Breakfast">
+                        <div class="card-content">
+                            <div class="name">Willow Big Breakfast</div>
+                            <div class="desc">Eggs, toast, turkey ham, hashbrown, mushrooms, and salad.</div>
+                            <div class="price">RM18.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/chicken-aglio-olio.png" alt="Chicken Aglio Olio">
+                        <div class="card-content">
+                            <div class="name">Chicken Aglio Olio</div>
+                            <div class="desc">Garlic and olive oil pasta with grilled chicken and chili flakes.
+                            </div>
+                            <div class="price">RM16.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/teriyaki-salmon-rice.png" alt="Teriyaki Salmon Rice Bowl">
+                        <div class="card-content">
+                            <div class="name">Teriyaki Salmon Rice Bowl</div>
+                            <div class="desc">Pan-seared salmon with teriyaki glaze, rice, and sautéed vegetables.
+                            </div>
+                            <div class="price">RM21.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/classic-tiramisu.png" alt="Classic Tiramisu">
+                        <div class="card-content">
+                            <div class="name">Classic Tiramisu</div>
+                            <div class="desc">A light, creamy Italian dessert with espresso-soaked layers.</div>
+                            <div class="price">RM11.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/smoked-salmon-bagel.png" alt="Smoked Salmon Bagel">
+                        <div class="card-content">
+                            <div class="name">Smoked Salmon Bagel</div>
+                            <div class="desc">Toasted bagel with cream cheese, smoked salmon, and dill.</div>
+                            <div class="price">RM15.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/affogato.png" alt="Affogato">
+                        <div class="card-content">
+                            <div class="name">Affogato</div>
+                            <div class="desc">Espresso poured over a scoop of vanilla ice cream.</div>
+                            <div class="price">RM10.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/ice-cream-waffle.png" alt="Ice Cream Waffle">
+                        <div class="card-content">
+                            <div class="name">Ice Cream Waffle</div>
+                            <div class="desc">Fresh waffle with a scoop of ice cream and chocolate drizzle.</div>
+                            <div class="price">RM10.90</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--Breakfast-->
+            <section id="breakfast-menu">
+                <div class="section-title">
+                    <img src="./images/breakfast1.svg" height="120px" alt="Sunny Start Platter Icon" />
+                    <h2>Breakfast</h2>
+                    <img src="./images/breakfast2.svg" height="120px" alt="Ham Sandwich Icon" />
+                </div>
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Start your day with our delicious breakfast options!</i></p>
+                    </blockquote>
+                </div>
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/sunny-start-platter.png" alt="Sunny Start Platter">
+                        <div class="card-content">
+                            <div class="name">Sunny Start Platter</div>
+                            <div class="desc">A hearty combination of eggs, toast, sausage, and hash browns to start
+                                your day right.</div>
+                            <div class="price">RM15.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/avocado-toast.png" alt="Avocado Toast">
+                        <div class="card-content">
+                            <div class="name">Avocado Toast</div>
+                            <div class="desc">Freshly smashed avocado on sourdough, topped with herbs and a drizzle
+                                of olive oil.</div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/french-toast-delight.png" alt="French Toast Delight">
+                        <div class="card-content">
+                            <div class="name">French Toast Delight</div>
+                            <div class="desc">Golden-brown toast served with fresh berries, maple syrup, and a
+                                dusting of sugar.</div>
+                            <div class="price">RM13.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/greek-yogurt-bowl.png" alt="Greek Yogurt Bowl">
+                        <div class="card-content">
+                            <div class="name">Greek Yogurt Bowl</div>
+                            <div class="desc">Thick Greek yogurt topped with granola, honey, and seasonal fruits.</div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/beef-bacon-bagel.png" alt="Beef Bacon Bagel">
+                        <div class="card-content">
+                            <div class="name">Beef Bacon Bagel</div>
+                            <div class="desc">Crispy beef bacon, cream cheese, and a touch of black pepper in a toasted
+                                bagel.</div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/cheese-ham-sandwich.png" alt="Cheese and Ham Sandwich">
+                        <div class="card-content">
+                            <div class="name">Cheese & Ham Sandwich</div>
+                            <div class="desc">Classic sandwich filled with melted cheese and slices of savory ham.</div>
+                            <div class="price">RM9.90</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--Light Bites & Pastries-->
+            <section id="light-bites-menu">
+                <div id="long-title" class="section-title">
+                    <img src="./images/lightbites1.svg" height="120px" alt="Croissant Icon" />
+                    <h2>Light&nbsp;Bites&nbsp;&&nbsp;Pastries</h2>
+                    <img src="./images/lightbites2.svg" height="120px" alt="Blueberry Toast Icon" />
+                </div>
+
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Perfect for sharing or a light snack!</i></p>
+                    </blockquote>
+                </div>
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/garlic-bread.png" alt="Garlic Bread">
+                        <div class="card-content">
+                            <div class="name">Garlic Bread</div>
+                            <div class="desc">Crispy bread topped with garlic butter and herbs.</div>
+                            <div class="price">RM6.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/bruschetta.png" alt="Bruschetta">
+                        <div class="card-content">
+                            <div class="name">Bruschetta</div>
+                            <div class="desc">Toasted bread topped with fresh tomatoes, basil, and balsamic glaze.
+                            </div>
+                            <div class="price">RM8.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/truffle-fries.png" alt="Truffle Fries">
+                        <div class="card-content">
+                            <div class="name">Truffle Fries</div>
+                            <div class="desc">Crispy golden fries tossed with aromatic truffle oil and parmesan.
+                            </div>
+                            <div class="price">RM9.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/mini-quiche.png" alt="Mini Quiche (Spinach & Cheese)">
+                        <div class="card-content">
+                            <div class="name">Mini Quiche (Spinach & Cheese)</div>
+                            <div class="desc">Mini savoury tarts filled with creamy spinach and melted cheese.</div>
+                            <div class="price">RM7.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/cinnamon-roll.png" alt="Cinnamon Roll">
+                        <div class="card-content">
+                            <div class="name">Cinnamon Roll</div>
+                            <div class="desc">Soft, fluffy roll swirled with cinnamon and topped with sweet glaze.
+                            </div>
+                            <div class="price">RM6.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/mozzarella-cheese-stick.png" alt="Mozzarella Cheese Sticks">
+                        <div class="card-content">
+                            <div class="name">Mozzarella Cheese Sticks</div>
+                            <div class="desc">Crunchy on the outside, gooey on the inside—served with marinara dip.
+                            </div>
+                            <div class="price">RM9.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/chicken-popcorn.png" alt="Chicken Popcorn Bites">
+                        <div class="card-content">
+                            <div class="name">Chicken Popcorn Bites</div>
+                            <div class="desc">Juicy bite-sized chicken pieces, lightly seasoned and fried to
+                                perfection.</div>
+                            <div class="price">RM9.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/chicken-mushroom-puff.png" alt="Chicken Mushroom Puff">
+                        <div class="card-content">
+                            <div class="name">Chicken Mushroom Puff</div>
+                            <div class="desc">Flaky pastry filled with tender chicken and creamy mushroom filling.
+                            </div>
+                            <div class="price">RM7.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/buttery-croissant.png" alt="Buttery Croissant">
+                        <div class="card-content">
+                            <div class="name">Buttery Croissant</div>
+                            <div class="desc">Light, flaky croissant with rich buttery layers, freshly baked daily.</div>
+                            <div class="price">RM6.90</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Pasta-->
+            <section id="pasta-menu">
+                <div class="section-title">
+                    <img src="./images/pasta1.svg" height="120px" alt="Cabonara Pasta Icon" />
+                    <h2>Pasta</h2>
+                    <img src="./images/pasta2.svg" height="120px" alt="Seafood Pasta Icon" />
+                </div>
+
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Delicious pasta dishes made with love!</i></p>
+                    </blockquote>
+                </div>
+
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/creamy-cabonara-pasta.png" alt="Creamy Carbonara Pasta">
+                        <div class="card-content">
+                            <div class="name">Creamy Carbonara Pasta</div>
+                            <div class="desc">Classic carbonara with turkey bacon and cheese.</div>
+                            <div class="price">RM18.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/spicy-sardine-pasta.png" alt="Spicy Sardine Pasta">
+                        <div class="card-content">
+                            <div class="name">Spicy Sardine Pasta</div>
+                            <div class="desc">Local fusion – spaghetti tossed with spicy sardine sambal and fresh herbs.
+                            </div>
+                            <div class="price">RM14.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/veggie-pesto-pasta.png" alt="Set D">
+                        <div class="card-content">
+                            <div class="name">Veggie Pesto Pasta Set</div>
+                            <div class="desc">Vegetarian-friendly, fresh pesto and seasonal vegetables.</div>
+                            <div class="price">RM13.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/beef-bolognese-pasta.png" alt="Beef Bolognese Spaghetti">
+                        <div class="card-content">
+                            <div class="name">Beef Bolognese Spaghetti</div>
+                            <div class="desc">Rich beef bolognese sauce served over al dente spaghetti.</div>
+                            <div class="price">RM18.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/seafood-marinara.png" alt="Seafood Marinara">
+                        <div class="card-content">
+                            <div class="name">Seafood Marinara</div>
+                            <div class="desc">Medley of prawns, mussels, and squid in a rich marinara sauce.</div>
+                            <div class="price">RM19.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/garlic-anchovy-pasta.png" alt="Garlic Anchovy Pasta">
+                        <div class="card-content">
+                            <div class="name">Garlic Anchovy Pasta</div>
+                            <div class="desc">MLight and salty – spaghetti with garlic oil, anchovies, chili flakes, and
+                                breadcrumbs.</div>
+                            <div class="price">RM15.90</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--Rice-->
+            <section id="rice-menu">
+                <div class="section-title">
+                    <img src="./images/rice1.svg" height="120px" alt="Japanese Curry Rice Icon" />
+                    <h2>Rice</h2>
+                    <img src="./images/rice2.svg" height="120px" alt="Fried Rice Icon" />
+                </div>
+
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Comforting rice dishes to satisfy your cravings!</i></p>
+                    </blockquote>
+                </div>
+
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/japanese-curry-rice.png" alt="Japanese Curry Rice">
+                        <div class="card-content">
+                            <div class="name">Japanese Curry Rice</div>
+                            <div class="desc">Tender chicken served with fragrant Japanese curry over steamed rice.
+                            </div>
+                            <div class="price">RM17.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/omurice-rice.jpg" alt="Omelette Rice">
+                        <div class="card-content">
+                            <div class="name">Omelette Rice (Omurice)</div>
+                            <div class="desc">Fluffy omelette over tomato fried rice, topped with savory brown sauce.
+                            </div>
+                            <div class="price">RM14.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/pineapple-fried-rice.png" alt="Pineapple Fried Rice">
+                        <div class="card-content">
+                            <div class="name">Pineapple Fried Rice</div>
+                            <div class="desc">Local-style fried rice with pineapples, fried egg and chicken slices.
+                            </div>
+                            <div class="price">RM14.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/grilled-chicken-rice.png" alt="Grilled Chicken Rice Bowl">
+                        <div class="card-content">
+                            <div class="name">Grilled Chicken Rice Bowl</div>
+                            <div class="desc">Juicy grilled chicken on fluffy rice with fresh veggies and a savoury
+                                glaze.</div>
+                            <div class="price">RM18.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/thai-basil-rice.png" alt="Thai Basil Chicken Rice">
+                        <div class="card-content">
+                            <div class="name">Thai Basil Chicken Rice</div>
+                            <div class="desc">Spicy minced chicken stir-fried with Thai basil, served with steamed
+                                rice.</div>
+                            <div class="price">RM17.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/gyudon.png" alt="Gyudon Don">
+                        <div class="card-content">
+                            <div class="name">Gyudon Don (Beef Bowl)</div>
+                            <div class="desc">Thinly sliced beef simmered in soy sauce, mirin, and onions over steamed
+                                Japanese rice.</div>
+                            <div class="price">RM18.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/unagi-don.png" alt="Unagi Don">
+                        <div class="card-content">
+                            <div class="name">Unagi Don</div>
+                            <div class="desc">Grilled eel glazed with sweet soy sauce atop a warm bowl of Japanese
+                                rice.</div>
+                            <div class="price">RM16.90</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--Dessert-->
+            <section id="dessert-menu">
+                <div class="section-title">
+                    <img src="./images/dessert1.svg" height="120px" alt="Japanese Curry Rice Icon" />
+                    <h2>Desserts</h2>
+                    <img src="./images/dessert2.svg" height="120px" alt="Fried Rice Icon" />
+                </div>
+
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Sweet treats to end your meal on a high note!</i></p>
+                    </blockquote>
+                </div>
+
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/chocolate-lava-cake.png" alt="Chocolate Lava Cake">
+                        <div class="card-content">
+                            <div class="name">Chocolate Lava Cake</div>
+                            <div class="desc">Warm chocolate cake with a molten center, served with vanilla ice
+                                cream.</div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/fruit-tart.png" alt="Fruit Tart">
+                        <div class="card-content">
+                            <div class="name">Fruit Tart</div>
+                            <div class="desc">Crispy tart shell filled with pastry cream and topped with fresh
+                                fruits.</div>
+                            <div class="price">RM9.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/burnt-cheesecake.png" alt="Burnt Cheesecake">
+                        <div class="card-content">
+                            <div class="name">Burnt Cheesecake</div>
+                            <div class="desc">Rich and creamy cheesecake with a caramelised top and soft centre.
+                            </div>
+                            <div class="price">RM10.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/matcha-cheesecake.png" alt="Matcha Cheesecake">
+                        <div class="card-content">
+                            <div class="name">Matcha Cheesecake</div>
+                            <div class="desc">Velvety cheesecake infused with earthy matcha flavour and a biscuit
+                                base.</div>
+                            <div class="price">RM10.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/oreo-cheesecake.png" alt="Oreo Cheesecake">
+                        <div class="card-content">
+                            <div class="name">Oreo Cheesecake</div>
+                            <div class="desc">Cookies and cream cheesecake on a crunchy Oreo base, topped with
+                                cookie bits.</div>
+                            <div class="price">RM10.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/banana-split-sundae.png" alt="Banana Split Sundae">
+                        <div class="card-content">
+                            <div class="name">Banana Split Sundae</div>
+                            <div class="desc">Classic banana split with scoops of ice cream, chocolate sauce, and
+                                whipped cream.</div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/apple-crumble-tart.png" alt="Apple Crumble Tart">
+                        <div class="card-content">
+                            <div class="name">Apple Crumble Tart</div>
+                            <div class="desc">Warm tart filled with cinnamon apples, topped with a buttery crumble
+                                crust.</div>
+                            <div class="price">RM11.90</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <!--Coffee & Tea-->
+            <section id="coffee-tea-menu">
+                <div id="long-title" class="section-title">
+                    <img src="./images/coffee2.svg" height="120px" alt="Coffee Icon" />
+                    <h2>Coffee&nbsp;&&nbsp;Tea</h2>
+                    <img src="./images/coffee1.svg" height="120px" alt="Tea Icon" />
+                </div>
+
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Enjoy our freshly brewed coffee & Tea!</i></p>
+                    </blockquote>
+                </div>
+
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/americano.png" alt="Americano">
+                        <div class="card-content">
+                            <div class="name">Americano</div>
+                            <div class="desc">Smooth espresso diluted with hot water for a clean finish.</div>
+                            <div class="price">RM6.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/caramel-latte.png" alt="Caramel Latte">
+                        <div class="card-content">
+                            <div class="name">Caramel Latte</div>
+                            <div class="desc">A smooth blend of espresso with milk and caramel drizzle.</div>
+                            <div class="price">RM9.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/espresso-shot.png" alt="Espresso">
+                        <div class="card-content">
+                            <div class="name">Espresso Shot</div>
+                            <div class="desc">Rich and bold espresso shot, perfect for a quick pick-me-up.</div>
+                            <div class="price">RM5.50</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/mocha.png" alt="Mocha">
+                        <div class="card-content">
+                            <div class="name">Mocha</div>
+                            <div class="desc">A rich mix of chocolate and espresso topped with steamed milk.</div>
+                            <div class="price">RM10.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/flat-white.png" alt="Flat White">
+                        <div class="card-content">
+                            <div class="name">Flat White</div>
+                            <div class="desc">Smooth espresso with velvety steamed milk for a bold yet creamy taste.
+                            </div>
+                            <div class="price">RM8.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/earl-grey-tea.png" alt="Earl Grey Tea">
+                        <div class="card-content">
+                            <div class="name">Earl Grey Tea</div>
+                            <div class="desc">Classic black tea infused with fragrant bergamot citrus.</div>
+                            <div class="price">RM6.50</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/honey-lemon-tea.png" alt="Honey Lemon Tea">
+                        <div class="card-content">
+                            <div class="name">Honey Lemon Tea</div>
+                            <div class="desc">Warm tea with a sweet-tart blend of honey and lemon.</div>
+                            <div class="price">RM6.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/macha-latte.png" alt="Matcha Latte">
+                        <div class="card-content">
+                            <div class="name">Matcha Latte</div>
+                            <div class="desc">Earthy matcha whisked with steamed milk for a creamy, energising sip.
+                            </div>
+                            <div class="price">RM9.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/peach-tea.png" alt="Iced Peach Tea">
+                        <div class="card-content">
+                            <div class="name">Iced Peach Tea</div>
+                            <div class="desc">Chilled tea infused with peach for a fruity, refreshing drink.</div>
+                            <div class="price">RM7.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/green-tea.png" alt="Green Tea">
+                        <div class="card-content">
+                            <div class="name">Green Tea</div>
+                            <div class="desc">Light and refreshing with natural antioxidants and a gentle taste.
+                            </div>
+                            <div class="price">RM5.50</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Blended Drinks-->
+            <section id="blended-menu">
+                <div id="long-title" class="section-title">
+                    <img src="./images/blended1.svg" height="120px" alt="Green blended Icon" />
+                    <h2>Blended&nbsp;Drinks</h2>
+                    <img src="./images/blended2.svg" height="120px" alt="Strawberry blended Icon" />
+                </div>
+
+
+                <div class="menu-desc">
+                    <blockquote>
+                        <p><i>Refreshing drinks to complement your meal!</i></p>
+                    </blockquote>
+                </div>
+
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/chocolate-cream.png" alt="Iced Chocolate with Cream">
+                        <div class="card-content">
+                            <div class="name">Iced Chocolate with Cream</div>
+                            <div class="desc">Rich chocolate drink topped with whipped cream.</div>
+                            <div class="price">RM11.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/strawberry-smoothie.png" alt="Strawberry Yogurt Smoothie">
+                        <div class="card-content">
+                            <div class="name">Strawberry Yogurt Smoothie</div>
+                            <div class="desc">Creamy yogurt blended with ripe strawberries for a fruity, refreshing
+                                treat.</div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/mango-matcha.png" alt="Mango Matcha Frappe">
+                        <div class="card-content">
+                            <div class="name">Mango Matcha Frappe</div>
+                            <div class="desc">A tropical twist of mango and earthy matcha in an icy blended drink.
+                            </div>
+                            <div class="price">RM13.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/oreo-frappe.png" alt="Oreo Cookies Frappe">
+                        <div class="card-content">
+                            <div class="name">Oreo Cookies Frappe</div>
+                            <div class="desc">Blended ice cream, milk, and crushed Oreos — a cookies & cream lover's
+                                dream.</div>
+                            <div class="price">RM13.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/blueberry-smoothie.png" alt="Blueberry Yogurt Smoothie">
+                        <div class="card-content">
+                            <div class="name">Blueberry Yogurt Smoothie</div>
+                            <div class="desc">Sweet and tangy blueberries blended with yogurt and honey.</div>
+                            <div class="price">RM12.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/avocado-milkshake.png" alt="Avocado Milkshake">
+                        <div class="card-content">
+                            <div class="name">Avocado Milkshake</div>
+                            <div class="desc">Creamy avocado blended with fresh milk and a touch of honey for a smooth,
+                                healthy treat.</div>
+                            <div class="price">RM11.90</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Others-->
+            <section id="others-menu">
+                <div class="section-title">
+                    <img src="./images/others1.svg" height="120px" alt="Rice Icon" />
+                    <h2>Others</h2>
+                    <img src="./images/others2.svg" height="120px" alt="Water Icon" />
+                </div>
+
+                <div class="grid-container">
+
+                    <div class="menu-card">
+                        <img src="./images/white-rice.png" alt="White Rice">
+                        <div class="card-content">
+                            <div class="name">White Rice</div>
+                            <div class="desc"></div>
+                            <div class="price">RM2.50</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/seasonal-juice.png" alt="Fresh Fruit Juice">
+                        <div class="card-content">
+                            <div class="name">Fresh Fruit Juice</div>
+                            <div class="desc">Refreshing juice made from seasonal fruits.</div>
+                            <div class="price">RM8.90</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/lemon-water.png" alt="Sparkling Lemon Water">
+                        <div class="card-content">
+                            <div class="name">Sparkling Lemon Water</div>
+                            <div class="desc">Light and bubbly with a zesty lemon kick — super refreshing!</div>
+                            <div class="price">RM5.50</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="./images/mineral-water.png" alt="Mineral Water">
+                        <div class="card-content">
+                            <div class="name">Bottled Mineral Water</div>
+                            <div class="desc"></div>
+                            <div class="price">RM2.50</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Column 1: Contact Info -->
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>5, Jalan Universiti, Bandar Sunway, 47500 Petaling Jaya, Selangor</p>
+                <p>Email: willowcafee@gmail.com</p>
+                <p>Phone: +60 12-345 6789</p>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="dashboard.html">Home</a></li>
+                    <li><a href="menu2.html">Menu</a></li>
+                    <li><a href="contact2.html">Contact</a></li>
+                    <li><a href="team2.html">Our Team</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Opening Hours -->
+            <div class="footer-col">
+                <h4>Opening Hours</h4>
+                <div class="hours-grid">
+                    <p>Mon – Fri: 8:30 AM – 10:00 PM</p>
+                </div>
+            </div>
+
+
+            <!-- Column 4: Social Media -->
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-icon.svg" alt="Facebook" /></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="./images/insta-icon.svg" alt="Instagram" /></a>
+                    <a href="https://www.whatsapp.com" target="_blank"><img src="./images/phone-icon.svg" alt="WhatsApp" /></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <small>&copy; 2025 Willow Café. All rights reserved.</small>
+        </div>
+    </footer>
+    <button id="backToTop" title="Go to top">↑</button>
+
+</body>
+
+</html>

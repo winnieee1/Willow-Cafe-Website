@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Willow Café</title>
+    <link rel="icon" type="svg" href="images/title-logo.svg">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+    <div class="login-wrapper">
+
+        <div class="top-buttons">
+            <a href="index.html" class="icon-button" title="Back Home">
+                <img src="./images/backbtn1.svg" alt="Back">
+            </a>
+        </div>
+        <div class="login-container">
+            <h2>Welcome Back to <span style="font-family: PlaylistFont; font-size: larger;">Willow Café</span></h2>
+            <form id="loginForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" />
+                <div id="username-error-box" class="error-message" style="display:none;"></div>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" />
+                <div id="password-error-box" class="error-message" style="display:none;"></div>
+
+                <button type="submit">Login</button>
+                <p class="link">Don’t have an account? <a href="signup1.html">Sign up here</a></p>
+                <div id="successMessage" class="success-message" style="display:none;"></div>
+            </form>
+        </div>
+    </div>
+
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+        <img src="./images/loadingspinner.gif" alt="Loading..." />
+    </div>
+</body>
+</html>

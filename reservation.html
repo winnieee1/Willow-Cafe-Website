@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation | Willow Café</title>
+    <link rel="icon" type="svg" href="images/title-logo.svg">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+    <div class="reservation-wrapper">
+
+        <div class="top-buttons">
+            <a href="index.html" class="icon-button" title="Back Home">
+                <img src="./images/backbtn1.svg" alt="Back">
+            </a>
+        </div>
+        <div class="reservation-container">
+            <h2>Welcome Back to <span style="font-family: PlaylistFont; font-size: larger;">Willow Café</span></h2>
+            <form id="reservationForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" />
+                <div id="name-error-box" class="error-message" style="display:none;"></div>
+
+                <label for="date">DiningDate</label>
+               <input type="date" id="date" name="date" placeholder="dd/mm/yyyy" required/>
+                <div id="date-error-box" class="error-message" style="display:none;"></div>
+
+                <label for="time">DiningTime</label>
+                <input type="time" id="time" name="time" min="08:30" max="22:00" placeholder="DiningTime" />
+                <div id="time-error-box" class="error-message" style="display:none;"></div>
+
+                <label for="numberofpax">NumberOfPax</label>
+                <input type="number" id="numberofpax" name="numberofpax" placeholder="NumberOfPax"/>
+                <div id="numberofpax-error-box" class="error-message" style="display:none;"></div>
+
+
+                <label for="phone">MobilePhone</label>
+                <input type="tel" id="phone" name="phone" placeholder="MobilePhone" />
+                <div id="phone-error-box" class="error-message" style="display:none;"></div>
+
+
+                <label for="occasion">Occasion</label>
+                <input type="text" id="occasion" name="occasion" placeholder="Occasion(optional)" >
+                <div id="occasion-error-box" class="error-message" style="display:none;"></div>
+
+
+                <button type="submit">Submit</button>
+
+                <div id="successMessage" class="success-message" style="display: none;"></div> 
+            </form>
+        </div>
+    </div>
+
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+        <img src="./images/loadingspinner.gif" alt="Loading..." />
+    </div>
+</body>
+</html>

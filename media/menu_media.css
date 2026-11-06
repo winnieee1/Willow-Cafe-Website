@@ -1,0 +1,146 @@
+
+/*Phone media query*/
+@media (max-width: 767px) {
+
+    /*topbar*/
+    .topbar {
+        padding: 0 15px;
+        height: 50px;
+    }
+
+    #menu-btn {
+        font-size: 20px;
+    }
+
+    .logo-btn img {
+        height: 50px;
+    }
+
+    .signup-btn {
+        padding: 6px 12px;
+        font-size: 0.9em;
+        border-radius: 15px;
+    }
+
+    /*header*/
+    .menu-header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .menu-header h1 {
+        font-size: 4.8em;
+        margin: 28px 0px 0px 0px;
+    }
+
+    #menu-icon {
+        height: 80px;
+        margin-top: 45px;
+    }
+
+    .tagline {
+        font-size: 1.1em;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .tagline-img {
+        height: 35px;
+    }
+
+    .tagline-container {
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    
+    /*main menu*/
+    .menu-sticky-bar{
+        overflow-x: auto !important;
+        padding: 10px 10px 12px 10px;
+        top: 50px;      /* Adjusted to match topbar height, 50px */
+        justify-content: flex-start;
+    }
+
+    .menu-sticky-bar a{
+        font-size: 0.9em;
+        padding: 8px 15px;
+        justify-content: center;
+    }
+
+    .section-title{
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .section-title h2 { 
+        font-size: 3rem;
+        letter-spacing: 1.5px;
+        flex: 0 1 auto;
+        order: 2;
+    }
+
+    .section-title img{
+        height: 50px;
+        margin: 0;
+        order: 1;
+    }
+
+    #long-title {
+        column-gap: 12px;
+    }
+
+    #long-title h2{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+
+    #long-title img{
+        margin-top: 15px;
+        height: 35px;
+    }
+
+    .section-title img:last-child{
+        order: 3;
+    }
+
+    .menu-desc{
+        font-size: 0.9rem;
+    }
+
+    .grid-container {
+    grid-template-columns: 1fr;
+    margin:15px;
+    }
+
+    .card-content .name{
+        font-size: 1.1rem;
+    }
+
+    .card-content .desc{
+        font-size: 0.9rem;
+    }
+}
+
+/*Media query for tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .menu-sticky-bar{
+        justify-content: flex-start;
+    }
+
+    .tagline-img {
+        height: 90px;
+    }
+
+    .section-title h2{
+        font-size: 3.5rem;
+        align-self: center;
+    }
+
+    .section-title img{
+        height: 75px;
+        margin: 0;
+    }
+}

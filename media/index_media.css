@@ -1,0 +1,192 @@
+@media (max-width: 767px) {
+
+    /*topbar */
+    .topbar {
+        padding: 0 15px;
+        height: 50px;
+    }
+
+    #menu-btn {
+        font-size: 20px;
+    }
+
+    .logo-btn img {
+        height: 50px;
+    }
+
+    .signup-btn {
+        padding: 6px 12px;
+        font-size: 0.9em;
+        border-radius: 15px;
+    }
+
+
+    /*header*/
+    .index-header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .wrapper {
+        height: 500px;
+    }
+
+    .wrapper h1 {
+        font-size: 4.2em;
+        margin-bottom: 10px;
+    }
+
+    .wrapper-icon {
+        margin-left: -20px;
+        height: 30px;
+        z-index: 2;
+    }
+
+    .tagline {
+        font-size: 1.1em;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .tagline-img {
+        height: 20px;
+    }
+
+    .tagline-container {
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .about-text p {
+        margin: 0 25px;
+        font-size: 1rem;
+    }
+
+    .clipart-item img {
+        width: 100px;
+
+    }
+
+    main h2 {
+        font-size: 3rem;
+    }
+
+    .about-section .about-image{
+        order: 0;
+    }
+
+    .about-section .about-text{
+        order: 1;
+    }
+
+    .about-section:first-of-type{
+        margin-top: -5px;
+    }
+
+    .about-text h3 {
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin: -20px 5px 10px;
+    }
+
+    .reviews-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .review-card {
+        margin: 0 20px;
+    }
+
+    .opening-content .left h1 {
+        font-size: 2.5rem;
+    }
+
+    .opening-content .right {
+        font-size: 1.2rem;
+    }
+
+    .opening-hours-banner {
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /*header*/
+    .index-header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .wrapper {
+        height: 500px;
+    }
+
+    .wrapper h1 {
+        font-size: 8em;
+        margin-bottom: 10px;
+    }
+
+    .wrapper-icon {
+        margin-left: -20px;
+        height: 50px;
+        z-index: 2;
+    }
+
+    .tagline {
+        font-size: 1.5em;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .tagline-img {
+        height: 75px;
+    }
+
+    .tagline-container {
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    main>.about-text p {
+        margin: 0 25px;
+    }
+
+    .clipart-item img {
+        width: 100px;
+
+    }
+
+    .about-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        gap: 30px;
+        max-width: 1000px;
+        margin: 60px auto;
+        padding: 20px;
+    }
+
+    .about-image img {
+        width: 400px;
+    }
+
+    .about-text h3 {
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .reviews-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 30px;
+        padding-top: 10px;
+    }
+
+    
+
+}

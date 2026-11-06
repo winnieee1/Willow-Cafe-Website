@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+    .topbar {
+        padding: 0 15px;
+        height: 50px;
+    }
+
+    #menu-btn {
+        font-size: 20px;
+    }
+
+    .logo-btn img {
+        height: 50px;
+    }
+
+    .signup-btn {
+        padding: 6px 12px;
+        font-size: 0.9em;
+        border-radius: 15px;
+    }
+
+     /*header*/
+    .team-header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    
+
+    .team-header h1 {
+        font-size: 4.2em;
+        margin-bottom: 10px;
+    }
+
+    .team-header img{
+        height: 42px;
+        margin-top: 60px !important;
+        margin-left: -20px;
+    }
+
+    .tagline {
+        font-size: 1.1em;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .tagline-img {
+        height: 20px;
+    }
+
+    .tagline-container {
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .team-section p{
+        font-size: 1rem;
+    }
+
+    .team-row h3, .team-row.reverse h3{
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin: -20px 5px 10px;
+    }
+
+    .team-row h3 img, .team-row.reverse h3 img{
+        width: 50px;
+    }
+
+    .team-row, .team-row.reverse{
+        flex-direction: column;
+        align-items: center;
+    }
+}

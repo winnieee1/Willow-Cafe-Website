@@ -1,0 +1,84 @@
+/*media query for tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .waze-map iframe {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 0 20px 0;
+    }
+}
+
+
+/*media query for mobile phone*/
+@media (max-width: 767px) {
+
+    /*topbar*/
+    .topbar {
+        padding: 0 15px;
+        height: 50px;
+    }
+
+    #menu-btn {
+        font-size: 20px;
+    }
+
+    .logo-btn img {
+        height: 50px;
+    }
+
+    .signup-btn {
+        padding: 6px 12px;
+        font-size: 0.9em;
+        border-radius: 15px;
+    }
+
+    /*header*/
+
+    .contact-header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-header h1 {
+        font-size: 4.5em;
+        margin-bottom: 10px;
+        text-align: center;
+        max-width: 8ch;
+        line-height: 1.2;
+    }
+
+    .contact-header img{
+        height: 50px;
+        margin-top: 60px !important;
+        margin-left: -50px !important;
+    }
+
+    .tagline {
+        font-size: 1.1em;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .tagline-img {
+        height: 30px;
+    }
+
+    .tagline-container {
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    /*main*/
+    .reserve-button-container {
+        font-size: 1.5em;
+    }
+
+    .waze-map iframe {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+
+}
